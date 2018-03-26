@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.shubhamchauhan.myapplication.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:text="Name"
+            android:textAppearance="@android:style/TextAppearance.Material.Headline"
+            android:textColor="@color/colorAccent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/txtName">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_action_user" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:autoText="false"
+            android:background="@color/colorPrimary"
+            android:text="Personal Information"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_action_emailgrey"
+            android:drawablePadding="@dimen/nav_header_vertical_spacing"
+            android:gravity="fill_vertical"
+            android:text="email"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_action_phonegrey"
+            android:drawablePadding="8dp"
+            android:gravity="fill_vertical"
+            android:text="Phone No "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_action_city"
+            android:drawablePadding="@dimen/nav_header_vertical_spacing"
+            android:gravity="fill_vertical"
+            android:text="Address"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center_horizontal"
+            android:text="About Me"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtAboutMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="fill"
+            android:text="About Me"
+            android:textAlignment="viewStart"
+            android:textSize="16sp" />
+    </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>

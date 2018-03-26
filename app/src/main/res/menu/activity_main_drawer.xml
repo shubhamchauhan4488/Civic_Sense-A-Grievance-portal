@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_createComplaint"
+            android:icon="@drawable/ic_action_createcomplaint"
+            android:title="Create New Complaint" />
+        <item
+            android:id="@+id/nav_myComplaints"
+            android:icon="@drawable/ic_my_complaints"
+            android:title="My Complaints" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_help"
+            android:title="Helplines" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_action_profile"
+            android:title="Profile" />
+
+
+        <item
+            android:icon="@drawable/ic_action_logout2"
+            android:iconTint="@android:color/holo_red_light"
+            android:id="@+id/nav_logout"
+            android:title="Logout"
+            android:iconTintMode="add"
+            app:showAsAction="always"
+            android:name= "log">@color/colorAccent</item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+    <group >
+
+    </group>
+
+
+</menu>
