@@ -12,4 +12,4 @@
   <li>DatePicker, Image Picker, TimePicker etc</li>
   </ul>
   
-<img src=".gif" width="300" height="614" />
+<img src="CivicSenseScreenshots.gif" width="300" height="614" />
