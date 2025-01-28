@@ -1,4 +1,4 @@
-# Civic_Sense-A-Grievance-portal
+# CivicSense: A Grievance portal
 
 <p>In this multi user application the user can login and report and view his/her complaints related of city and send mail to concerned authorities.</p>
 <p>It uses the following:</p>
